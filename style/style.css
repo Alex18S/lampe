@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ #social-info{
+    height:  90px;
+    max-width: 1100px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+#social-info .social{
+    font-size: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+#social-info .social a{
+    color: #4FBFA5;
+    text-decoration: none;
+}
+
+main{
+    background-color: #4FBFA5;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav button{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+}
+
+main .main-content{
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px 0;
+    
+}
+main .main-content h1{
+    color: white;
+    font-size: 48px;
+}
+
+main .main-content p{
+    margin: 20px 0;
+    color: white;
+}
+
+main .main-content button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #00868A;
+    color: white;
+    text-transform: uppercase;
+}
+#angebot{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+#angebot h2{
+    color: #00868A;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 48px;
+}
+
+#angebot .angebot_list{
+    display: flex;
+    gap: 25px;
+}
+
+#angebot .item{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#angebot .item img{
+    width: 306px;
+    height: 230px;
+}
+
+#angebot .info{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00868A;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    
+
+}
+
+#angebot .info button{
+    
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+    color: #4FBFA5;
+    background-color: transparent;
+    
+}
